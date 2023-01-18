@@ -9,21 +9,19 @@
 /* Begin PBXBuildFile section */
 		EDA77FC329781441009512D7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDA77FC229781441009512D7 /* AppDelegate.swift */; };
 		EDA77FC529781441009512D7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDA77FC429781441009512D7 /* SceneDelegate.swift */; };
-		EDA77FC729781441009512D7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDA77FC629781441009512D7 /* ViewController.swift */; };
-		EDA77FCA29781441009512D7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EDA77FC829781441009512D7 /* Main.storyboard */; };
 		EDA77FCC29781444009512D7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EDA77FCB29781444009512D7 /* Assets.xcassets */; };
 		EDA77FCF29781444009512D7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EDA77FCD29781444009512D7 /* LaunchScreen.storyboard */; };
+		EDA77FD72978155B009512D7 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDA77FD62978155B009512D7 /* MainViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		EDA77FBF29781441009512D7 /* FlashlightProgrammaticUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FlashlightProgrammaticUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EDA77FC229781441009512D7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EDA77FC429781441009512D7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		EDA77FC629781441009512D7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		EDA77FC929781441009512D7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		EDA77FCB29781444009512D7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EDA77FCE29781444009512D7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EDA77FD029781444009512D7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EDA77FD62978155B009512D7 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,8 +56,7 @@
 			children = (
 				EDA77FC229781441009512D7 /* AppDelegate.swift */,
 				EDA77FC429781441009512D7 /* SceneDelegate.swift */,
-				EDA77FC629781441009512D7 /* ViewController.swift */,
-				EDA77FC829781441009512D7 /* Main.storyboard */,
+				EDA77FD62978155B009512D7 /* MainViewController.swift */,
 				EDA77FCB29781444009512D7 /* Assets.xcassets */,
 				EDA77FCD29781444009512D7 /* LaunchScreen.storyboard */,
 				EDA77FD029781444009512D7 /* Info.plist */,
@@ -127,7 +124,6 @@
 			files = (
 				EDA77FCF29781444009512D7 /* LaunchScreen.storyboard in Resources */,
 				EDA77FCC29781444009512D7 /* Assets.xcassets in Resources */,
-				EDA77FCA29781441009512D7 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,7 +134,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EDA77FC729781441009512D7 /* ViewController.swift in Sources */,
+				EDA77FD72978155B009512D7 /* MainViewController.swift in Sources */,
 				EDA77FC329781441009512D7 /* AppDelegate.swift in Sources */,
 				EDA77FC529781441009512D7 /* SceneDelegate.swift in Sources */,
 			);
@@ -147,14 +143,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		EDA77FC829781441009512D7 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				EDA77FC929781441009512D7 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		EDA77FCD29781444009512D7 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -292,7 +280,6 @@
 				INFOPLIST_FILE = FlashlightProgrammaticUI/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -320,7 +307,6 @@
 				INFOPLIST_FILE = FlashlightProgrammaticUI/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
